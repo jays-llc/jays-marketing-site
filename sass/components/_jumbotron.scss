@@ -1,0 +1,19 @@
+#jumbo {
+  color: $palenavy;
+  background: $leafgreen;
+  padding: 6rem 0;
+
+  .jumbotron {
+    background: $leafgreen;
+    margin: 0;
+
+    .btn {
+      margin-top: 1rem;
+      background: $palenavy;
+
+      &:hover {
+        background: $softred;
+      }
+    }
+  }
+}

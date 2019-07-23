@@ -1,0 +1,90 @@
+body {
+  background: #F3F3F3;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem; }
+
+.navbar {
+  background: #8DBF44;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px #333; }
+  .navbar a.navbar-brand {
+    font-family: "Monoton", cursive;
+    cursor: pointer;
+    font-size: 3rem; }
+
+.mast {
+  min-height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 98px; }
+  .mast .mast_logo {
+    height: 100%; }
+    @media only screen and (max-width: 800px) {
+      .mast .mast_logo {
+        width: 80%; } }
+
+#jumbo {
+  color: #3D4954;
+  background: #8DBF44;
+  padding: 6rem 0; }
+  #jumbo .jumbotron {
+    background: #8DBF44;
+    margin: 0; }
+    #jumbo .jumbotron .btn {
+      margin-top: 1rem;
+      background: #3D4954; }
+      #jumbo .jumbotron .btn:hover {
+        background: #bf4450; }
+
+#gallery {
+  background: #3D4954;
+  padding: 1rem 0 5rem; }
+  #gallery .gallery-title {
+    margin: 2rem 0;
+    color: #F3F3F3; }
+  #gallery .gallery-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: row wrap; }
+    #gallery .gallery-wrapper .gallery-item {
+      height: 200px;
+      margin: .5rem;
+      flex: 0 10%;
+      overflow: hidden;
+      display: flex; }
+      @media only screen and (max-width: 1800px) {
+        #gallery .gallery-wrapper .gallery-item {
+          flex: 0 22%; } }
+      @media only screen and (max-width: 992px) {
+        #gallery .gallery-wrapper .gallery-item {
+          flex: 0 30%; } }
+
+.btn {
+  font-size: 1.6rem;
+  background: #3D4954; }
+  .btn:hover {
+    background: #576877; }
+
+#contact {
+  padding: 3rem 0; }
+
+#about .page-title {
+  font-size: 4rem;
+  text-align: center; }
+
+.about-content {
+  padding: 4rem 0; }
+  .about-content .about-tagline {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: 200;
+    border-top: solid 1px #333;
+    border-bottom: solid 1px #333;
+    margin-bottom: 5rem; }
+  .about-content .col h3 {
+    text-align: center; }

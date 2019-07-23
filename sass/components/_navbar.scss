@@ -1,0 +1,13 @@
+.navbar {
+  background: $leafgreen;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px #333;
+
+  a.navbar-brand {
+    font-family: $brand-font;
+    cursor: pointer;
+    font-size: 3rem;
+
+
+  }
+}

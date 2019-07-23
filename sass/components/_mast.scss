@@ -1,0 +1,15 @@
+.mast {
+  min-height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 98px;
+
+  .mast_logo {
+    height: 100%;
+
+    @media only screen and (max-width: 800px) {
+      width: 80%;
+    }
+  }
+}

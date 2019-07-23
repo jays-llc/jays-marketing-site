@@ -1,0 +1,25 @@
+{
+  "name": "jays-llc",
+  "version": "1.0.0",
+  "description": "Jays LLC Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Turnipseed",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techturnip/jays-llc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/techturnip/jays-llc/issues"
+  },
+  "homepage": "https://github.com/techturnip/jays-llc#readme",
+  "dependencies": {}
+}
