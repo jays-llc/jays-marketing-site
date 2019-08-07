@@ -7,7 +7,12 @@
     font-family: $brand-font;
     cursor: pointer;
     font-size: 3rem;
+    position: relative;
 
-
+    .apostraphe {
+      position: absolute;
+      top: 13px;
+      left: 104px;
+    }
   }
 }

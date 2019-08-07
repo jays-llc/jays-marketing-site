@@ -3,6 +3,24 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 1.2rem; }
 
+.page-title {
+  font-size: 4rem;
+  text-align: center; }
+
+.page-content {
+  padding: 4rem 0; }
+  .page-content .col h3 {
+    text-align: center; }
+
+.page-tagline {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: 200;
+  border-top: solid 1px #333;
+  border-bottom: solid 1px #333;
+  margin-bottom: 5rem; }
+
 .navbar {
   background: #8DBF44;
   font-size: 1.2rem;
@@ -10,7 +28,12 @@ body {
   .navbar a.navbar-brand {
     font-family: "Monoton", cursive;
     cursor: pointer;
-    font-size: 3rem; }
+    font-size: 3rem;
+    position: relative; }
+    .navbar a.navbar-brand .apostraphe {
+      position: absolute;
+      top: 13px;
+      left: 104px; }
 
 .mast {
   min-height: 600px;
@@ -69,22 +92,5 @@ body {
   .btn:hover {
     background: #576877; }
 
-#contact {
-  padding: 3rem 0; }
-
-#about .page-title {
-  font-size: 4rem;
-  text-align: center; }
-
-.about-content {
-  padding: 4rem 0; }
-  .about-content .about-tagline {
-    text-align: center;
-    padding: 2rem 0;
-    font-size: 2rem;
-    font-weight: 200;
-    border-top: solid 1px #333;
-    border-bottom: solid 1px #333;
-    margin-bottom: 5rem; }
-  .about-content .col h3 {
-    text-align: center; }
+#contact .contact-form {
+  padding: 0 0 6rem; }
