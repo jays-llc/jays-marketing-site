@@ -50,7 +50,8 @@ body {
 #jumbo {
   color: #3D4954;
   background: #8DBF44;
-  padding: 6rem 0; }
+  padding: 6rem 0;
+  margin-top: 4rem; }
   #jumbo .jumbotron {
     background: #8DBF44;
     margin: 0; }
@@ -62,7 +63,8 @@ body {
 
 #gallery {
   background: #3D4954;
-  padding: 1rem 0 5rem; }
+  padding: 1rem 0 5rem;
+  margin-top: 6rem; }
   #gallery .gallery-title {
     margin: 2rem 0;
     color: #F3F3F3; }
@@ -94,3 +96,26 @@ body {
 
 #contact .contact-form {
   padding: 0 0 6rem; }
+
+#features {
+  font-size: 1.6rem;
+  text-align: center; }
+  #features .row {
+    padding: 8rem 6rem; }
+  #features .image-col {
+    display: flex;
+    justify-content: center; }
+    #features .image-col .svg-img {
+      width: 80%; }
+  #features .text-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    #features .text-col h2 {
+      padding-bottom: 2rem; }
+  #features h3 {
+    text-align: center;
+    padding-bottom: 2rem; }
+  #features .btn.btn-lg {
+    padding: 1rem 2rem; }
