@@ -30,6 +30,9 @@ body {
     cursor: pointer;
     font-size: 3rem;
     position: relative; }
+    @media only screen and (max-width: 768px) {
+      .navbar a.navbar-brand {
+        font-size: 2.2rem; } }
     .navbar a.navbar-brand .apostraphe {
       position: absolute;
       top: 13px;
@@ -52,14 +55,13 @@ body {
   background: #8DBF44;
   padding: 6rem 0;
   margin-top: 4rem; }
-  #jumbo .jumbotron {
-    background: #8DBF44;
-    margin: 0; }
-    #jumbo .jumbotron .btn {
-      margin-top: 1rem;
-      background: #3D4954; }
-      #jumbo .jumbotron .btn:hover {
-        background: #bf4450; }
+  #jumbo p {
+    font-size: 3.5rem; }
+    @media only screen and (max-width: 768px) {
+      #jumbo p {
+        padding: .5rem;
+        text-align: center;
+        font-size: 2.2rem; } }
 
 #gallery {
   background: #3D4954;
@@ -102,6 +104,9 @@ body {
   text-align: center; }
   #features .row {
     padding: 8rem 6rem; }
+    @media only screen and (max-width: 768px) {
+      #features .row {
+        padding: 4rem 2rem; } }
   #features .image-col {
     display: flex;
     justify-content: center; }
@@ -119,3 +124,6 @@ body {
     padding-bottom: 2rem; }
   #features .btn.btn-lg {
     padding: 1rem 2rem; }
+
+#footer p {
+  margin: 0; }
